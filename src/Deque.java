@@ -139,6 +139,8 @@ public class Deque<Item> implements Iterable<Item> {
         deque.addLast(2); // deque: 1 2
         deque.addFirst(0); // deque: 0 1 2
         deque.addLast(3); // deque: 0 1 2 3
+        deque.addLast(4); // deque: 0 1 2 3 4
+        deque.addLast(5); // deque: 0 1 2 3 5
 
         // Print all elements in deque
         System.out.println("Deque contents:");
